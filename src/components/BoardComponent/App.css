@@ -1,0 +1,69 @@
+.switchBtn {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #006400;
+  color: white;
+  box-shadow: 2px 2px 2px black;
+  width: 110px;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.switchBtn:hover {
+  box-shadow: 1px 1px 1px black;
+  background: #005900;
+}
+
+.chart {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header-row {
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 10px;
+  background: #e8e8e8;
+}
+
+.row {
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 10px;
+}
+
+.shade {
+  background: #e8e8e8;
+}
+
+.row div, .header-row div {
+  display: inline-block;
+}
+
+.rank {
+  width: 50px;
+  text-align: center;
+}
+
+.name {
+  width: 220px;
+  text-align: left;
+}
+
+.header-row .name {
+  margin-left: 40px;
+  width: 180px;
+}
+
+.avatar {
+  width: 30px;
+  margin-top: 3px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.month, .total {
+  width: 100px;
+}
