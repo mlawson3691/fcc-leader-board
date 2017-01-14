@@ -1,6 +1,7 @@
 .chart {
   width: 500px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .switchBtn {
   padding: 5px;
@@ -11,48 +12,62 @@
   box-shadow: 2px 2px 2px black;
   width: 110px;
   margin: 20px auto;
-  border: 1px solid black; }
-  .switchBtn:hover {
+  border: 1px solid black;
+
+  &:hover {
     box-shadow: none;
     background: #005900;
     position: relative;
     margin-top: 22px;
     margin-bottom: 18px;
-    box-shadow: 0 0 2px black; }
+    box-shadow: 0 0 2px black;
+  }
+}
 
 .header-row {
   border: 1px solid black;
   font-weight: bold;
   font-size: 1.2em;
   border-radius: 10px;
-  background: #e8e8e8; }
-  .header-row .name {
+  background: #e8e8e8;
+
+  .name {
     margin-left: 40px;
-    width: 180px; }
+    width: 180px;
+  }
+}
 
 .row {
   border: 1px solid black;
   border-top: none;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .shade {
-  background: #e8e8e8; }
+  background: #e8e8e8;
+}
 
 .row div, .header-row div {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .rank {
   width: 50px;
-  text-align: center; }
+  text-align: center;
+}
 
 .name {
   width: 220px;
-  text-align: left; }
-  .name .avatar {
+  text-align: left;
+
+  .avatar {
     width: 30px;
     margin-top: 3px;
     margin-right: 10px;
-    border-radius: 50%; }
+    border-radius: 50%;
+  }
+}
 
 .month, .total {
-  width: 100px; }
+  width: 100px;
+}

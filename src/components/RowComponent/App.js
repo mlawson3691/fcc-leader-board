@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Request from 'superagent';
 import './App.css';
 
 export default class RowComponent extends Component {
