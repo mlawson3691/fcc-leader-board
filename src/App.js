@@ -10,7 +10,7 @@ class App extends Component {
           <p>Free Code Camp Leader Board</p>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          The most active campers based on brownie points gained.
         </p>
         <BoardComponent />
       </div>
